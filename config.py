@@ -20,11 +20,11 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "26512989"))
 API_HASH = environ.get("API_HASH", "18384653bbc502e6134b104c139e70f2")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7481834594:AAHaWqvtbWjuNLYHJYn04G5JKJHbTLL7UjU")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7859871122:AAEjiPlwV-cFHpIzkTi0yn7uLLQVNfKrdLY")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/4bcfd34906b967165f432.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6987158459').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "FilePr0viderBot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "VideoMaker01Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002242443609"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002499149396"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
